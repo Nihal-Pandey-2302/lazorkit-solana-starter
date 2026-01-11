@@ -79,6 +79,48 @@ _Instant QR code generation for easy mobile deposits and address sharing._
 ![Transaction History](./docs/screenshots/txn-history.png)
 _Real-time transaction tracking with direct Solana Explorer links._
 
+## ⚡ TL;DR - 60 Second Setup
+
+```bash
+# 1. Clone
+git clone https://github.com/Nihal-Pandey-2302/lazorkit-solana-starter
+cd lazorkit-solana-starter
+
+# 2. Install
+npm install
+
+# 3. Run
+npm run dev
+
+# 4. Test it live
+# → Visit http://localhost:3000
+# → Click "Connect Wallet"
+# → Approve with FaceID/TouchID
+# → Send gasless transaction
+# → Try the SUBSCRIPTION DEMO 💰
+```
+
+**🌐 Don't want to set up locally?**  
+→ [**Try the live demo**](https://lazorkit-solana-starter-rho.vercel.app/)
+
+**🎥 Want to see it in action first?**  
+→ [**Watch the 3-minute video**](https://youtu.be/3h6FlZL5F-k)
+
+---
+
+## 🚀 What Makes This Different?
+
+This is the **only submission** (likely) that demonstrates:
+
+1. **Recurring Gasless Payments** - The "SaaS on Solana" use case
+2. **True Zero-Balance Gasless** - Using Memo program (not transfers that fail)
+3. **Multi-Asset Support** - SOL + USDC in one interface
+4. **Production UI** - Not a basic form, but a real wallet dashboard
+
+**Translation:** We didn't just integrate the SDK - we built what consumer apps actually need.
+
+---
+
 ## Getting Started
 
 ### 1. Installation
