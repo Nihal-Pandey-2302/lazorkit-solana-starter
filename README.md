@@ -16,7 +16,7 @@ This repo demonstrates how to help users use Solana without installing anything 
 
 ## Live Demo
 
-[Link to your Vercel Deployment]
+[https://lazorkit-solana-starter-rho.vercel.app/](https://lazorkit-solana-starter-rho.vercel.app/)
 
 ## 🏗️ Architecture
 
