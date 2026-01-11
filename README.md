@@ -253,7 +253,10 @@ A: Absolutely. Passkeys work best on mobile (FaceID/TouchID). This template is f
 
 ---
 
-## Resources
+### Mobile Login Issues?
 
-- [LazorKit Docs](https://docs.lazorkit.com)
-- [Solana Developers](https://solana.com/developers)
+If you can create an account but not sign in on mobile:
+
+1.  **Vercel Env Vars**: Ensure `NEXT_PUBLIC_PAYMASTER_URL` and `NEXT_PUBLIC_RPC_URL` are added in Vercel settings.
+2.  **Domain Mismatch**: Passkeys are bound to the exact domain (e.g., `yourapp.vercel.app`). You cannot create on `localhost` and sign in on `vercel.app`.
+3.  **Browser**: Use Chrome on Android or Safari on iOS. Embedded browsers (like inside Twitter/Telegram) often block WebAuthn.
