@@ -18,6 +18,10 @@ This repo demonstrates how to help users use Solana without installing anything 
 
 [https://lazorkit-solana-starter-rho.vercel.app/](https://lazorkit-solana-starter-rho.vercel.app/)
 
+## 🎥 Demo Video
+
+[![Demo Video](https://img.youtube.com/vi/3h6FlZL5F-k/0.jpg)](https://www.youtube.com/watch?v=3h6FlZL5F-k)
+
 ## 🏗️ Architecture
 
 ```mermaid
